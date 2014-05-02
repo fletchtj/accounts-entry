@@ -30,7 +30,6 @@ AccountsEntry =
         Session.set('fromWhere', router.path)
         Router.go('/sign-in')
         Session.set('entryError', t9n('error.signInRequired'))
-        router.pause()
 
 @AccountsEntry = AccountsEntry
 
